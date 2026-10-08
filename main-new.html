@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HeeJeong Portfolio</title>
+    <meta name="author" content="정희정">
+    <meta name="description" name="안녕하세요. 웹툰, 디자인, AI 전문 포트폴리오입니다.">
+    <meta name="robots" content="noindex, nofolow">
+    <meta name="keywords" content="포트폴리오, 디자인, 웹툰, 영상, Figma">
+
+    <!-- Favicons -->
+    <link href="assets/img/아이콘 파랑.ico" rel="icon">
+    <link href="assets/img/아이콘 파랑.ico" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main-red.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page ">
+
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.webp" alt=""> -->
+            <h1 class="sitename">Hee <span class="sitename-font-goo">Jeong</span></h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" >Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#resume">Resume</a></li>  -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+        <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
+    </div>
+</header>
+
+<main class="main">
+    <section id="get-started" class="hero-section home-hero-section">
+        <div class="w-layout-blockcontainer site-container w-container">
+            <div class="hero-centered-block"><img src="assets/img/profile/me-back.jpg" alt=""
+                    loading="lazy" sizes="(max-width: 767px) 100vw, 675.0000610351562px" class="hero-image">
+                <div data-w-id="91a14c1c-6ecb-b6fe-e71a-1b3a5dcaea2f"
+                     style="opacity: 1; will-change: filter, opacity; filter: blur(0em);" class="h1 hero-first">Stop Playing
+                    Small.
+                </div>
+                <div data-w-id="20f22669-2f48-83ce-a894-c5afddb0afb6" style="opacity: 1;" class="h1 accent z-50 playfair-display-goo">start</div>
+                <div data-w-id="1dd45b1a-3555-f3cf-6924-f3978b745e27" style="opacity: 1;" class="h1 accent z-50 playfair-display-goo">Playing
+                    Smart.
+                </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <span class="subtitle">Portfolio</span>
+            <h2>Portfolio</h2>
+            <p>작업 포트폴리오입니다.</p>
+        </div><!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+                    <li data-filter="*" class="filter-active">전체보기</li>
+                    <li data-filter=".filter-video">영 상</li>
+                    <li data-filter=".filter-ai">A I</li>
+                    <li data-filter=".filter-design">디 자 인</li>
+                    <li data-filter=".filter-figma">Figma</li>
+                    <li data-filter=".filter-web">W E B</li>
+                </ul>
+
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-1.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_video_01.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>Smeg 3D 제품광고</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                        <span class="portfolio-details">
+                          <i class="bi bi-arrow-right"></i>
+                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">브랜딩</span>
+                                    <span class="tag">제품광고</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-5.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_video_02.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>실내조명기구 제품광고</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                        <span class="portfolio-details">
+                          <i class="bi bi-arrow-right"></i>
+                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">브랜딩</span>
+                                    <span class="tag">제품광고</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-2.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/rock.png" alt="Digital Project" class="img-fluid"
+                                         loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Design</span>
+                                            <h4>Poster Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Web Design</span>
+                                    <span class="tag">Logo Design</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-6.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_video_03.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>EduPay APP 홍보영상</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                        <span class="portfolio-details">
+                          <i class="bi bi-arrow-right"></i>
+                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">마케팅</span>
+                                    <span class="tag">App 홍보</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-8.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/bookcover2.png" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>BookCover Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">브랜딩</span>
+                                    <span class="tag">제품광고</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-7.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_video_04.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>스케이트 보드 HEAPS 제품광고</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                        <span class="portfolio-details">
+                          <i class="bi bi-arrow-right"></i>
+                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">브랜딩</span>
+                                    <span class="tag">제품광고</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-9.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_video_05.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>나만의 포스터 모션 그래픽</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">포스터</span>
+                                    <span class="tag">모션 그래픽</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-4.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/poster2.jpg" alt="Digital Project" class="img-fluid"
+                                         loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Design</span>
+                                            <h4>Poster Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <!-- <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox portfolio-link">
+                                              <i class="bi bi-plus-lg"></i>
+                                            </a> -->
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Web Design</span>
+                                    <span class="tag">Poster</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-ai-1.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/ai_thum_01.png" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>AI로 만든 화장품광고</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">AI</span>
+                                    <span class="tag">제품광고</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-13.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/logo_stella.jpg" alt="Digital Project" class="img-fluid"
+                                         loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Design</span>
+                                            <h4>Logo Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <!-- <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox portfolio-link">
+                                              <i class="bi bi-plus-lg"></i>
+                                            </a> -->
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Web Design</span>
+                                    <span class="tag">Logo Design</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-3.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/bookcover1.png" alt="Design Project" class="img-fluid"
+                                         loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Art Direction</span>
+                                            <h4>Campaign Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                              <span class="portfolio-details">
+                                                  <i class="bi bi-arrow-right"></i>
+                                              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Creative</span>
+                                    <span class="tag">Campaign</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-ai-2.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/ai_thum_02.png" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>AI로 만든 유튜브쇼츠</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">AI</span>
+                                    <span class="tag">유튜브쇼츠</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-12.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/cardnews1.png" alt="Design Project" class="img-fluid"
+                                         loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Art Direction</span>
+                                            <h4>카드뉴스 Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                              <span class="portfolio-details">
+                                                  <i class="bi bi-arrow-right"></i>
+                                              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Creative</span>
+                                    <span class="tag">Campaign</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-figma">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-figma-1.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/im_figma.png" alt="Strategy Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Brand Strategy</span>
+                                            <h4>App Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">Design</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-ai-3.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/ai_thum_03.png" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>AI로 만든 유튜브쇼츠</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">AI</span>
+                                    <span class="tag">유튜브쇼츠</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-ai-4.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/ai_thum_04.png" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>AI로 만든 유튜브쇼츠</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">AI</span>
+                                    <span class="tag">유튜브쇼츠</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-ai-5.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/ai_thum_05.png" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>AI로 만든 유튜브쇼츠</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">AI</span>
+                                    <span class="tag">유튜브쇼츠</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-figma">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-figma-2.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/moodboard.png" alt="Strategy Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Brand Strategy</span>
+                                            <h4>App Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">Design</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-10.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/thum_creditop.jpg" alt="Development Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Web Design</span>
+                                            <h4>크레디탑 홈페이지</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Web Design</span>
+                                    <span class="tag">Web Publishing</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-11.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/thum_bkwinners.jpg" alt="Development Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Web Design</span>
+                                            <h4>Ghpayments 홈페이지</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Web Design</span>
+                                    <span class="tag">Web Publishing</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-figma">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-figma-3.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/figma-company.png" alt="Strategy Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">회사소개서</span>
+                                            <h4>PPT Design</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">Design</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-15.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_ginseng.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>영주풍기인삼 홍보 동영상</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">애니메이션 작업</span>
+                                    <span class="tag">홍보 영상</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-16.html">
+                                <div class="portfolio-image-container">
+                                    <img src="assets/img/portfolio/thum_wpay.png" alt="Development Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Web Design</span>
+                                            <h4>재정산솔루션 Admin</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                          </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">Web Design</span>
+                                    <span class="tag">Web Publishing</span>
+                                </div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+                        <div class="portfolio-card">
+                            <a href="./portfolio-details-14.html">
+                                <div class="portfolio-image-container thumnail-video">
+                                    <img src="assets/img/portfolio/thum_park.jpg" alt="Design Project"
+                                         class="img-fluid" loading="lazy">
+                                    <div class="portfolio-overlay">
+                                        <div class="portfolio-info">
+                                            <span class="project-category">Creative Video</span>
+                                            <h4>부흥공원 홍보 동영상</h4>
+                                        </div>
+                                        <div class="portfolio-actions">
+                                            <span class="portfolio-details">
+                                              <i class="bi bi-arrow-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="portfolio-meta">
+                                <div class="project-tags">
+                                    <span class="tag">촬영 영상</span>
+                                    <span class="tag">홍보 영상</span>
+                                </div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!-- /Portfolio Section -->
+
+</main>
+
+ <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Hee Jeung</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="#">\Hee Jeung</a>
+      </div>
+    </div>
+
+  </footer>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
